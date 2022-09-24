@@ -1,0 +1,120 @@
+:root {
+    --text_color: rgb(210, 210, 210);
+    --font_size: 0.85rem;
+}
+
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    color: var(--text_color);
+    background-color: rgb(18, 18, 18);
+    font-family: 'Dosis', sans-serif;
+    font-size: var(--font_size);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 30em;
+}
+
+ol {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+ol li {
+    font-family: 'Jura', sans-serif;
+    font-weight: lighter;
+    display: inline-block;
+    list-style: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    vertical-align: middle;
+}
+
+a {
+    color: rgb(237, 119, 51);
+}
+
+a:hover {
+    color: rgb(233, 163, 128)
+}
+
+a:link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.2rem solid var(--text_color);
+    border-radius: 0.25rem;
+    max-width: 20rem;
+    margin-bottom: 1rem;
+}
+
+#tomorrow_link {
+    font-size: calc(var(--font_size) * 1.5);
+}
+
+#today {
+    font-size: calc(var(--font_size) * 2);
+}
+
+#yesterday_link {
+    font-size: calc(var(--font_size) * 1.5);
+}
+
+#caption {
+    font-family: 'Jura', sans-serif;
+    font-size: calc(var(--font_size) * 1.25);
+}
+
+#credits {
+    font-family: 'Jura', sans-serif;
+    font-size: calc(var(--font_size) * 0.8);
+}
+
+#contact {
+    margin-bottom: 5%;
+}
+
+@media (min-width: 380px) {
+    Html {
+        font-size: 20px;
+    }
+
+    img {
+        max-width: 16rem;
+    }
+}
+
+@media (min-width: 500px) {
+    Html {
+        font-size: 24px;
+    }
+
+    img {
+        max-width: 20rem;
+    }
+}
+
+@media (min-width: 900px) {
+    Html {
+        font-size: 26px;
+    }
+
+    img {
+        max-width: 22rem;
+    }
+}
