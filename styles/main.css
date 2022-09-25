@@ -35,11 +35,27 @@ h2 {
     color: var(--text_color);
 }
 
-.grid-container {
+#grid-container {
     display: grid;
     gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     margin: 2rem;
+    place-items: center
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.grid-item {
+    flex: 0 0 calc(16.66% - 20px);
+    padding: 1rem;
 }
 
 ol {
