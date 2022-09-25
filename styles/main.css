@@ -35,14 +35,6 @@ h2 {
     color: var(--text_color);
 }
 
-#grid-container {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 2rem;
-    place-items: center
-}
-
 .grid-container {
     display: flex;
     flex-wrap: wrap;
