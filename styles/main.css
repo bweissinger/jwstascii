@@ -69,6 +69,11 @@ ol li {
 
 .archive_list {
     font-family: 'Dosis', sans-serif;
+    text-align: left;
+}
+
+.archive_list li {
+    text-indent: -2rem;
 }
 
 a {
