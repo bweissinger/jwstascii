@@ -67,6 +67,10 @@ ol li {
     vertical-align: middle;
 }
 
+.archive_list {
+    font-family: 'Dosis', sans-serif;
+}
+
 a {
     color: rgb(237, 119, 51);
 }
