@@ -4,6 +4,17 @@
     --font_size: 0.85rem;
 }
 
+@font-face {
+    font-family: "Jura";
+    src: url("/fonts/Jura-Light.ttf");
+    src: url("/fonts/Jura-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Dosis";
+    src: url("/fonts/Dosis-Regular.ttf");
+}
+
 
 html {
     display: table;
@@ -59,7 +70,6 @@ ol {
 
 ol li {
     font-family: 'Jura', sans-serif;
-    font-weight: lighter;
     display: inline-block;
     list-style: none;
     padding-left: 0.5rem;
@@ -100,14 +110,17 @@ img {
 }
 
 #tomorrow_link {
+    font-family: 'Jura', sans-serif;
     font-size: calc(var(--font_size) * 1.5);
 }
 
 #today {
+    font-family: 'Jura', sans-serif;
     font-size: calc(var(--font_size) * 2);
 }
 
 #yesterday_link {
+    font-family: 'Jura', sans-serif;
     font-size: calc(var(--font_size) * 1.5);
 }
 
