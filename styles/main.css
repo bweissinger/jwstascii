@@ -84,7 +84,8 @@ ol li {
 }
 
 .archive_list li {
-    text-indent: -2rem;
+    padding-left: 1.75rem;
+    text-indent: -1.75rem;
 }
 
 a {
@@ -138,9 +139,34 @@ img {
     margin-bottom: 5%;
 }
 
+@media (min-width: 280px) {
+    Html {
+        font-size: 15px;
+    }
+
+    img {
+        max-width: 17rem;
+    }
+
+    #tomorrow_link {
+        font-family: 'Jura', sans-serif;
+        font-size: calc(var(--font_size) * 1.25);
+    }
+
+    #today {
+        font-family: 'Jura', sans-serif;
+        font-size: calc(var(--font_size) * 1.75);
+    }
+
+    #yesterday_link {
+        font-family: 'Jura', sans-serif;
+        font-size: calc(var(--font_size) * 1.25);
+    }
+}
+
 @media (min-width: 380px) {
     Html {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     img {
@@ -150,19 +176,15 @@ img {
 
 @media (min-width: 500px) {
     Html {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     img {
-        max-width: 20rem;
+        max-width: 18rem;
     }
 }
 
-@media (min-width: 900px) {
-    Html {
-        font-size: 26px;
-    }
-
+@media (min-width: 850px) {
     img {
         max-width: 22rem;
     }
