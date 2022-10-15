@@ -28,7 +28,7 @@ body {
     font-size: var(--font_size);
     display: table-cell;
     vertical-align: middle;
-    text-align: justify;
+    text-align: center;
     -moz-text-align-last: center;
     text-align-last: center;
     padding-left: 5%;
@@ -44,6 +44,12 @@ h1 {
 h2 {
     font-family: 'Jura', sans-serif;
     color: var(--text_color);
+}
+
+#about_image {
+    text-align: left;
+    -moz-text-align-last: left;
+    text-align-last: left;
 }
 
 .grid-container {
