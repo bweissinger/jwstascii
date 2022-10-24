@@ -13,7 +13,7 @@ jobs:
       - name: staging
         run: |
           mkdir -p staging
-          rsync -av --exclude='staging' --exclude='.git*' * staging
+          rsync -av --exclude='staging' --exclude='README*' --exclude='.git*' * staging
         shell: bash
       - name: upload_s3
         uses: shallwefootball/upload-s3-action@v1.1.3
